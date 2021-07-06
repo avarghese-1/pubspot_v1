@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const EventDecisionScreen = props => {
     return(
         <View style = {styles.screen}>
-            <Text>The Add Event Screen for Venues</Text>
+            <Text>Event Decision Screen for Venues</Text>
         </View>
     )
 }

@@ -11,6 +11,8 @@ import MyEventsScreen from './screens/truck_screens/MyEventsScreen';
 import AddEventScreen from './screens/venue_screens/AddEventScreen';
 import EventDecisionScreen from './screens/venue_screens/EventDecisionScreen';
 import ManageEventsScreen from './screens/venue_screens/ManageEventsScreen';
+import TruckHome from './screens/truck_screens/TruckHome';
+import VenueHome from './screens/venue_screens/VenueHome';
 
 
 const Stack = createStackNavigator();
@@ -26,6 +28,8 @@ export default function App() {
         <Stack.Screen name='My Events' component={MyEventsScreen} />
         <Stack.Screen name='Event Decisions' component={EventDecisionScreen} />
         <Stack.Screen name='Manage Events' component={ManageEventsScreen} />
+        <Stack.Screen name='Truck Home' component={TruckHome} />
+        <Stack.Screen name='Venue Home' component={VenueHome} />
       </Stack.Navigator>
     </NavigationContainer>
   );

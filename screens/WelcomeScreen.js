@@ -13,6 +13,10 @@ const WelcomeScreen = props => {
             />
             <Text>Venue Pages:</Text>
             <Button 
+                title='Venue Home Screen'
+                onPress={() => props.navigation.navigate('Venue Home')}
+            />
+            <Button 
                 title='Add Event Screen'
                 onPress={() => props.navigation.navigate('Add Event Screen')}
             />
@@ -25,6 +29,10 @@ const WelcomeScreen = props => {
                 onPress={() => props.navigation.navigate('Manage Events')}
             />
             <Text>Truck Pages:</Text>
+            <Button 
+                title='Truck Home Screen'
+                onPress={() => props.navigation.navigate('Truck Home')}
+            />
             <Button 
                 title='Bid Screen'
                 onPress={() => props.navigation.navigate('Bid Screen')}
